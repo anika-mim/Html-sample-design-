@@ -1,0 +1,108 @@
+*{
+    margin: 0; padding: 0; 
+    box-sizing: border-box; text-align: center; 
+    font-family: 'Raleway', cursive;}
+    
+    main{
+     width: 75%; margin: 50px auto; 
+     border:white;
+     display: grid; 
+     color: white;
+     grid-template-rows: 60px 100px 200px 60px;
+     grid-template-columns: repeat(3, 1fr) 150px;
+     grid-gap: 20px;
+     
+    }
+    .center{
+        padding-top:12px;
+        text-align:middle;
+    }
+    fieldset {
+        font-size:14px;
+        width:1000px;
+        height: 700px;
+        background:#F5F5F5 ;
+        border-color:white;
+    }
+    
+     .div1{ 
+        background-color: #DA1E5D;; 
+        grid-column: 1/-1;
+        border-radius: 10px;
+        width:1150px;
+        padding-top: 10px;
+        
+     }
+     .div2{ 
+        background-color: #DA1E5D;;
+        border-radius: 10px; 
+        width:300px;
+        height: 200px;
+        padding-top: 80px;
+    }
+     .div3{ 
+        background-color: #DA1E5D;; 
+        border-radius: 10px;
+        width:500px;
+        height: 200px;
+        padding-top: 80px;
+    }
+     .div4{ 
+        background-color: #DA1E5D;; 
+        border-radius: 10px;
+        width:300px;
+        height: 200px;
+        padding-top: 80px;
+    }
+     .div5{ 
+        background-color: #DA1E5D;; 
+      grid-row:2/4; grid-column: 4/5;
+      border-radius: 10px;
+     }
+     .div6{ background-color: #DA1E5D;; 
+      grid-column: 1/ 4;
+      border-radius: 10px;
+     }
+     .div7{ 
+      background-color: #DA1E5D;;
+      grid-column: 1/-1;
+      border-radius: 10px;
+      transform: translate(15%, -330%) ;
+      height:70px;
+      width: 1150px;
+      color:#F2F2F2;
+      padding-top: 18px;
+    
+      }
+      .menu-bar
+{
+    text-align: center;
+    transform: translate(-20%, 55%);
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style-type: none;
+    color: #606060;
+
+}
+.menu-bar ul li
+{
+    width:120px;
+    margin:15px;
+    padding:15px;
+}
+.button-box{
+
+    width: 20px;
+    margin:35px auto;
+    position:relative;
+    background-color:#e0e0e0;
+    border-radius:20px; 
+    transform: translate(-15%, 5%) ;
+}
+.button-box1{
+    background-color:#606060;
+    border-radius:20px;
+    color:#E0E0E0;
+}
